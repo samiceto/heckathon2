@@ -48,10 +48,10 @@ const page = () => {
     
 
 
-    <div className='md:w-[1440px] w-[100vw] px-11'>
+    <div className='md:w-[1440px] w-[90vw] px-11'>
         <hr />
     <div className="flex space-x-2 ">
-      <div className="flex-1 px-4 py-2 border-l border-gray-400 flex flex-col gap-8 mx-auto">
+      <div className="flex-1 px-2 md:px-4 py-2 hidden border-l border-gray-400 md:flex flex-col gap-8 mx-auto">
 <div className='text-[20px] font-medium'>General</div>
 <div>Sales Package<br /></div>
 <div>Model Number<br /></div>
@@ -93,7 +93,7 @@ const page = () => {
 
 
       </div>
-      <div className="flex-1 px-4 py-2 border-l border-gray-400 flex flex-col gap-8">
+      <div className="flex-1 px-2 md:px-4 py-2 border-l border-gray-400 flex flex-col gap-8">
 
       <div>SL shaped fabric<br /></div>
 <div>L shaped fabric<br /></div>
@@ -134,7 +134,7 @@ const page = () => {
 </div>
 
       </div>
-      <div className="flex-1 px-4 py-2 border-l border-gray-400 flex flex-col gap-8">
+      <div className="flex-1 px-2 md:px-4   py-2 border-l border-gray-400 flex flex-col gap-8">
 
       <br />
 <br />
@@ -168,7 +168,7 @@ const page = () => {
 
 </div>
       </div>
-      <div className="flex-1 px-4 py-2 border-l border-gray-400"></div>
+      <div className="flex-1 px-4 md:px-4 hidden md:flex py-2 border-l border-gray-400"></div>
     </div>
     </div>
     

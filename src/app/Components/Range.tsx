@@ -8,11 +8,11 @@ const Range = (props:any) => {
     <h1 className="text-[32px] font-bold mx-auto text-center">Browse The Range</h1>
     <p className="text-[20px] text-gray-500 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
    </div>
-   <div className='w-[381px] md:w-[1183px] flex flex-col md:flex-row justify-between mt-[55px] mx-auto'>
+   <div className='w-[300px] md:w-[1183px] flex flex-col md:flex-row justify-between mt-[55px] mx-auto'>
 {props.rang.map((item:any,index: any)=>{
     return(
-        <div key={index} className='w-[381px] h-[546px] flex flex-col justify-center gap-4 mx-auto'>
-    <Image src={item.img} alt="" width={381} height={480} className='w-[381px] h-[480px] rounded-md'></Image>
+        <div key={index} className='w-[300px] h-[480px] flex flex-col justify-center gap-4 mx-auto'>
+    <Image src={item.img} alt="" width={381} height={480} className='w-[300px] h-[400px] rounded-md'></Image>
     <p className='text-[24px] font-semibold mx-auto'>{item.des}</p>
 
         </div>

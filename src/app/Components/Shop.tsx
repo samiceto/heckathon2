@@ -6,7 +6,7 @@ const Shop = (props:any) => {
   return (
     <div className='md:w-[1440px] md:h-[316px] w-[100vw] h-[40vw] relative'>
     <Image src="/shop.png" alt="" width={1440} height={316} className='md:w-[1440px] md:h-[316px] w-[100vw] h-[40vw]'></Image>
-    <div className='absolute md:top-[100px] top-[4vw] left-[32%] flex flex-col justify-center items-center md:w-[500px] w-[40vw]'>
+    <div className='absolute md:top-[100px] top-[4vw] left-[28%] flex flex-col justify-center items-center md:w-[500px] w-[50vw]'>
     <Image src="/logo.png" alt="" width={77} height={77} className={`md:w-[77px] w-[25px] ${props.shop.disp}`}></Image>
     <h1 className='md:text-[48px] text-[18px] font-medium'>{props.shop.heading}</h1>
     <div className='flex gap-2'>

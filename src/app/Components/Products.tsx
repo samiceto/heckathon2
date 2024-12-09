@@ -8,9 +8,9 @@ const Products = (props:any) => {
     <div className='w-fit md:w-[1236px] h-fit mt-8 flex  flex-wrap md:justify-between justify-center gap-4 md:gap-1 mx-auto'>
     {props.product.map((item:any)=>{
         return(
-            <div key={item.key}className='md:w-[285px] md:h-[446px] w-[180px] h-[280px] flex flex-col justify-between items-center relative my-4'>
-            <div className='md:w-[285px] w-[180] md:h-[301px] h-[189.63] relative'>
-            <Image src={item.img} alt="" width={285} height={300} className='md:w-[285px] w-[180] md:h-[301px] h-[189.63]'></Image>
+            <div key={item.key}className='md:w-[285px] md:h-[446px] w-[170px] h-[270px] flex flex-col justify-between items-center relative my-4'>
+            <div className='md:w-[285px] w-[170] md:h-[301px] h-[179.63] relative'>
+            <Image src={item.img} alt="" width={285} height={300} className='md:w-[285px] w-[170] md:h-[301px] h-[179.63]'></Image>
             <div className={`md:w-[48px] md:h-[48px] w-[25px] h-[25px] rounded-full bg-[#E97171] md:text-[20px] text-[10px] text-white flex justify-center items-center absolute top-6 right-6 ${item.disp1}`}>{item.off}</div>
             <div className={`md:w-[48px] md:h-[48px] w-[25px] h-[25px] rounded-full bg-[#2EC1AC] md:text-[20px] text-[10px] text-white flex justify-center items-center absolute top-6 right-6 ${item.disp2}`}>New</div>
             </div>
@@ -22,8 +22,8 @@ const Products = (props:any) => {
                     <div className={`text-gray-500 line-through ${item.disp3}`}>{item.sale}</div>
                 </div>
             </div>
-            <div className='md:w-[285px] md:h-[446px] w-[180px] h-[280px] flex flex-col justify-center items-center bg-black bg-opacity-70 absolute opacity-0 hover:opacity-100 p-7'>
-                <div className='md:w-[202px] w-[100px] md:h-[48px] h-[30px] text-[12px] md:text-[16px] text-[#B88E2F] flex justify-center items-center bg-white my-4'><Link href="/singleproduct">Add to cart</Link></div>
+            <div className='md:w-[285px] md:h-[446px] w-[170px] h-[270px] flex flex-col justify-center items-center bg-black bg-opacity-70 absolute opacity-0 hover:opacity-100 p-7'>
+                <div className='md:w-[202px] w-[90px] md:h-[48px] h-[27px] text-[12px] md:text-[16px] text-[#B88E2F] flex justify-center items-center bg-white my-4'><Link href="/singleproduct">Add to cart</Link></div>
                 <div className='flex md:gap-3 gap-1 items-center text-white font-semibold md:tex-[20px] text-[10px]'>
                     <div className='flex gap-1'>
                     <Share2 color="#ffffff" strokeWidth={1.25}  className='md:w-[20px] w-[12px]'/>

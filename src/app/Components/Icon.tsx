@@ -3,7 +3,7 @@ import React from 'react'
 
 const Icon = () => {
   return (
-    <div className='md:w-[1440px] w-[100vw] h-fit md:h-[270px] bg-[#FAF3EA] px-28 items-center flex flex-col md:flex-row justify-between md:gap-1 gap-6 py-8 md:py-1'>
+    <div className='md:w-[1440px] w-[90vw] h-fit md:h-[270px] bg-[#FAF3EA] px-28 items-center flex flex-col md:flex-row justify-between md:gap-1 gap-6 py-8 md:py-1 mx-auto'>
 <div className='flex flex-col md:flex-row md:text-start text-center items-center gap-2'>
     <div><Trophy size={48} color="#000000" strokeWidth={1.5} /></div>
     <div>

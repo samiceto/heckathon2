@@ -28,47 +28,47 @@ const page = () => {
             </div>
             <div className='flex flex-col gap-2'>Company Name (Optional)
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col  gap-2'>Country / Region
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col gap-2'>Street address
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col gap-2'>Town / City
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col gap-2'>Province
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col gap-2'>ZIP code
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col gap-2'>Phone
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col gap-2'>Email address
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black'/>
             </label>
             </div>
             <div className='flex flex-col'>
             <label htmlFor="name">
-                <input type="text" name="name" className='w-[412px] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black' placeholder='Additional information'/>
+                <input type="text" name="name" className='md:w-[412px] w-[90vw] md:h-[75px] h-[50px] border-2 rounded-lg p-3 border-black' placeholder='Additional information'/>
             </label>
             </div>
 

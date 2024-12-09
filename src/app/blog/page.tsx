@@ -72,12 +72,12 @@ const page = () => {
 
   
 </div>
-<div className='md:w-[393px] w-[100vw] md:h-[1228px] h-fit'>
-<div className='w-[393px] h-[537px] flex flex-col justify-between mx-auto'>
+<div className='md:w-[393px] w-[90vw] md:h-[1228px] h-fit'>
+<div className='md:w-[393px] w-[90vw] h-[537px] flex flex-col justify-between mx-auto'>
     <div className='flex items-center mx-auto'>
         <label htmlFor="name" className='relative'>
         <Search size={36} color="#000000" strokeWidth={1.25} className='absolute right-3 top-3' />
-            <input type="text" className='w-[311px] h-[58px] border-2 border-black rounded-lg p-3'/>
+            <input type="text" className='md:w-[311px] w-[79vw] h-[58px] border-2 border-black rounded-lg p-3'/>
         </label>
     </div>
 
@@ -103,7 +103,7 @@ const page = () => {
         <p>4</p>
     </div>
 </div>
-<div className='w-[393px] h-[650px] flex flex-col justify-between items-center mx-auto'>
+<div className='md:w-[393px] w-[90vw] h-[650px] flex flex-col justify-between items-center mx-auto'>
     <h1 className='text-[24px] font-medium '>Recent Posts</h1>
     <div className='flex items-center gap-4'>
     <Image src="/img2.png" alt="" width={80} height={80} className='w-[80px] h-[80px]'></Image>
